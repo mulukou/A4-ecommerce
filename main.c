@@ -19,19 +19,22 @@ int main()
 
         if(operation == 'C')
         {
+            printf("\n\n                                                                Categorias");
             int funcionando = 0;
             while (funcionando <= 0)
             {
+
                 printf("\n\n=========================================================================================================================================================\n\n");
-                printf("\n\n                                                                Categorias\n\n");
-                printf("\n\n              (C)adernos (Ma)terias Escolares (Li)vros (M)ochilas (E)stojos (T)intas (I)nstrumentos Musicais");
-                printf("\n=========================================================================================================================================================\n\n");
+                printf("\n\n              (C)adernos (Ma)terias Escolares (Li)vros (M)ochilas (E)stojos (T)intas (I)nstrumentos Musicais\n\n");
+                printf("\n\n=========================================================================================================================================================\n\n");
+                
                 printf("Insira seu comando: ");
-                scanf("%c", &operation);
+                scanf(" %c", &operation);
+                setbuf(stdin,NULL);
 
                 if(operation == 'C')
                 {
-                    printf("\n\n Você está na sessão de cadernos");
+                    printf("\n\nVocê está na sessão de cadernos");
                 }
             }
         }
