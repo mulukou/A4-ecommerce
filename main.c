@@ -18,8 +18,12 @@ int main()
 
         if(operation == 'C')
         {
-
+            printf("=========================================================================================================================================================\n\n");
+            printf("\n\n                                                                Categorias\n\n");
+            printf("\n\n              (C)adernos (Ca)netas (L)ápis (Li)vros (M)ochilas (E)stojos (T)intas (I)nstrumentos Musicais");
+            printf("\n=========================================================================================================================================================\n\n");
         }
+        // Mover para dentro da página do produto
         else if (operation == 'A')
         {
 
@@ -40,6 +44,5 @@ int main()
         
     }
     
-
     return 0;
 }
